@@ -1,0 +1,412 @@
+--7a2e637e-A--
+[10/Oct/2015:14:44:23 +0700] AcAUAcAcAcAcAcAcAcAcAcAc 192.168.233.1 63294 127.0.0.1 80
+--7a2e637e-B--
+GET /html/CodeBanSach/?act=search&frame=search&keyword=%3Cscript%3Ealert+%28%27xin+chao%27%29%3C%2Fscript%3E&Submit=T%C3%ACm+ki%E1%BA%BFm+nhanh%21+ HTTP/1.1
+Host: test.com
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/49.0 Chrome/43.0.2357.126 Safari/537.36
+Referer: http://test.com/html/CodeBanSach/?act=search&frame=search&keyword=Matsu&Submit=T%C3%ACm+ki%E1%BA%BFm+nhanh%21+
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2
+Cookie: __utma=99889051.142483490.1444621529.1444621529.1444621529.1; __utmz=99889051.1444621529.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=las6l9hc52cao61meo0kc09og5
+
+--7a2e637e-F--
+HTTP/1.1 
+Content-Type: text/html
+Content-Length: 570
+Connection: keep-alive
+
+--7a2e637e-H--
+Message: Access denied with code 403 (phase 2). Pattern match "\\W{4,}" at ARGS:keyword. [file "/usr/local/nginx/conf/modsecurity.conf"] [line "1528"] [id "960024"] [rev "2"] [msg "Meta-Character Anomaly Detection Alert - Repetative Non-Word Characters"] [data "Matched Data: ')</ found within ARGS:keyword: <script>alert ('xin chao')</script>"] [ver "OWASP_CRS/2.2.9"] [maturity "9"] [accuracy "8"]
+Message: Audit log: Failed to lock global mutex: Permission denied
+Action: Intercepted (phase 2)
+Apache-Handler: IIS
+Stopwatch: 1444463063000884 885938 (- - -)
+Stopwatch2: 1444463063000884 885938; combined=739, p1=333, p2=359, p3=0, p4=0, p5=47, sr=53, sw=0, l=0, gc=0
+Producer: ModSecurity for nginx (STABLE)/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: ModSecurity Standalone
+Engine-Mode: "ENABLED"
+
+--7a2e637e-Z--
+
+--d76dbb39-A--
+[10/Oct/2015:15:01:56 +0700] gcAcAcAcpcAcAcAcAcAcAcAc 192.168.233.1 63756 127.0.0.1 80
+--d76dbb39-B--
+POST /sessions HTTP/1.1
+Host: uit.com
+Connection: keep-alive
+Content-Length: 147
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Origin: http://uit.com
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/49.0 Chrome/43.0.2357.126 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Referer: http://uit.com/
+Accept-Encoding: gzip, deflate
+Accept-Language: vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2
+Cookie: has_js=1; _ga=GA1.2.198819154.1444084597; _session_id=BAh7B0kiD3Nlc3Npb25faWQGOgZFVEkiJTVjNzZlM2Q2MmU2NmI0Yjg5N2UwZmEyOTEyODY1YTJjBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMTU4aGVGZXIxb2Q2R3lWakZiZjJodjdWbllSWk84WW4vQUsxVEJDMU9xWG89BjsARg%3D%3D--4aa83363b404eb5d3cae9a18535e0ca38c7269f1
+
+--d76dbb39-C--
+utf8=%E2%9C%93&authenticity_token=58heFer1od6GyVjFbf2hv7VnYRZO8Yn%2FAK1TBC1OqXo%3D&email=1%27+or+%271%27+%3D+%271&password=1%27+or+%271%27+%3D+%271
+--d76dbb39-F--
+HTTP/1.1 
+Content-Type: text/html
+Content-Length: 570
+Connection: keep-alive
+
+--d76dbb39-H--
+Message: Access denied with code 403 (phase 2). Pattern match "\\W{4,}" at ARGS:email. [file "/usr/local/nginx/conf/modsecurity.conf"] [line "1528"] [id "960024"] [rev "2"] [msg "Meta-Character Anomaly Detection Alert - Repetative Non-Word Characters"] [data "Matched Data: ' = ' found within ARGS:email: 1' or '1' = '1"] [ver "OWASP_CRS/2.2.9"] [maturity "9"] [accuracy "8"]
+Message: Audit log: Failed to lock global mutex: Permission denied
+Action: Intercepted (phase 2)
+Apache-Handler: IIS
+Stopwatch: 1444464111000891 5899362 (- - -)
+Stopwatch2: 1444464111000891 5899362; combined=1525, p1=507, p2=750, p3=0, p4=0, p5=267, sr=28, sw=1, l=0, gc=0
+Producer: ModSecurity for nginx (STABLE)/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: ModSecurity Standalone
+Engine-Mode: "ENABLED"
+
+--d76dbb39-Z--
+
+--18013a32-A--
+[10/Oct/2015:15:03:23 +0700] AcA6AcA8AcACAcAcAtAcpcAc 192.168.233.1 63788 127.0.0.1 80
+--18013a32-B--
+POST /sessions HTTP/1.1
+Host: uit.com
+Connection: keep-alive
+Content-Length: 135
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Origin: http://uit.com
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/49.0 Chrome/43.0.2357.126 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Referer: http://uit.com/
+Accept-Encoding: gzip, deflate
+Accept-Language: vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2
+Cookie: has_js=1; _ga=GA1.2.198819154.1444084597; _session_id=BAh7B0kiD3Nlc3Npb25faWQGOgZFVEkiJTVjNzZlM2Q2MmU2NmI0Yjg5N2UwZmEyOTEyODY1YTJjBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMTU4aGVGZXIxb2Q2R3lWakZiZjJodjdWbllSWk84WW4vQUsxVEJDMU9xWG89BjsARg%3D%3D--4aa83363b404eb5d3cae9a18535e0ca38c7269f1
+
+--18013a32-C--
+utf8=%E2%9C%93&authenticity_token=58heFer1od6GyVjFbf2hv7VnYRZO8Yn%2FAK1TBC1OqXo%3D&email=trader%27%27&password=1%27+or+%271%27+%3D+%271
+--18013a32-F--
+HTTP/1.1 
+Content-Type: text/html
+Content-Length: 570
+Connection: keep-alive
+
+--18013a32-H--
+Message: Access denied with code 403 (phase 2). Pattern match "\\W{4,}" at ARGS:password. [file "/usr/local/nginx/conf/modsecurity.conf"] [line "1528"] [id "960024"] [rev "2"] [msg "Meta-Character Anomaly Detection Alert - Repetative Non-Word Characters"] [data "Matched Data: ' = ' found within ARGS:password: 1' or '1' = '1"] [ver "OWASP_CRS/2.2.9"] [maturity "9"] [accuracy "8"]
+Message: Audit log: Failed to lock global mutex: Permission denied
+Action: Intercepted (phase 2)
+Apache-Handler: IIS
+Stopwatch: 1444464198000497 5503172 (- - -)
+Stopwatch2: 1444464198000497 5503172; combined=1291, p1=596, p2=628, p3=0, p4=0, p5=66, sr=28, sw=1, l=0, gc=0
+Producer: ModSecurity for nginx (STABLE)/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: ModSecurity Standalone
+Engine-Mode: "ENABLED"
+
+--18013a32-Z--
+
+--92e7d87f-A--
+[10/Oct/2015:15:04:02 +0700] AcScAcAcAEAcAcAcAcAmAcAU 192.168.233.1 63803 127.0.0.1 80
+--92e7d87f-B--
+POST /sessions HTTP/1.1
+Host: uit.com
+Connection: keep-alive
+Content-Length: 111
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Origin: http://uit.com
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/49.0 Chrome/43.0.2357.126 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Referer: http://uit.com/
+Accept-Encoding: gzip, deflate
+Accept-Language: vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2
+Cookie: has_js=1; _ga=GA1.2.198819154.1444084597; _session_id=BAh7B0kiD3Nlc3Npb25faWQGOgZFVEkiJTVjNzZlM2Q2MmU2NmI0Yjg5N2UwZmEyOTEyODY1YTJjBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMTU4aGVGZXIxb2Q2R3lWakZiZjJodjdWbllSWk84WW4vQUsxVEJDMU9xWG89BjsARg%3D%3D--4aa83363b404eb5d3cae9a18535e0ca38c7269f1
+
+--92e7d87f-C--
+utf8=%E2%9C%93&authenticity_token=58heFer1od6GyVjFbf2hv7VnYRZO8Yn%2FAK1TBC1OqXo%3D&email=abc%27&password=123%27
+--92e7d87f-F--
+HTTP/1.1 
+Content-Type: text/html
+Content-Length: 570
+Connection: keep-alive
+
+--92e7d87f-H--
+Message: Access denied with code 403 (phase 2). Pattern match "(^[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+|[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+$)" at ARGS:utf8. [file "/usr/local/nginx/conf/modsecurity.conf"] [line "1793"] [id "981318"] [rev "2"] [msg "SQL Injection Attack: Common Injection Testing Detected"] [data "Matched Data: \xe2 found within ARGS:utf8: \xe2\x9c\x93"] [severity "CRITICAL"] [ver "OWASP_CRS/2.2.9"] [maturity "9"] [accuracy "8"] [tag "OWASP_CRS/WEB_ATTACK/SQL_INJECTION"] [tag "WASCTC/WASC-19"] [tag "OWASP_TOP_10/A1"] [tag "OWASP_AppSensor/CIE1"] [tag "PCI/6.5.2"]
+Message: Audit log: Failed to lock global mutex: Permission denied
+Action: Intercepted (phase 2)
+Apache-Handler: IIS
+Stopwatch: 1444464237000651 5660447 (- - -)
+Stopwatch2: 1444464237000651 5660447; combined=1717, p1=206, p2=1326, p3=0, p4=0, p5=184, sr=11, sw=1, l=0, gc=0
+Producer: ModSecurity for nginx (STABLE)/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: ModSecurity Standalone
+Engine-Mode: "ENABLED"
+
+--92e7d87f-Z--
+
+--165fb448-A--
+[10/Oct/2015:15:04:30 +0700] KcAcAcAcAcAclcAcAFAcAcAc 192.168.233.1 63805 127.0.0.1 80
+--165fb448-B--
+POST /sessions HTTP/1.1
+Host: uit.com
+Connection: keep-alive
+Content-Length: 111
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Origin: http://uit.com
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/49.0 Chrome/43.0.2357.126 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Referer: http://uit.com/
+Accept-Encoding: gzip, deflate
+Accept-Language: vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2
+Cookie: has_js=1; _ga=GA1.2.198819154.1444084597; _session_id=BAh7B0kiD3Nlc3Npb25faWQGOgZFVEkiJTVjNzZlM2Q2MmU2NmI0Yjg5N2UwZmEyOTEyODY1YTJjBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMTU4aGVGZXIxb2Q2R3lWakZiZjJodjdWbllSWk84WW4vQUsxVEJDMU9xWG89BjsARg%3D%3D--4aa83363b404eb5d3cae9a18535e0ca38c7269f1
+
+--165fb448-C--
+utf8=%E2%9C%93&authenticity_token=58heFer1od6GyVjFbf2hv7VnYRZO8Yn%2FAK1TBC1OqXo%3D&email=%27%27&password=%27%27
+--165fb448-F--
+HTTP/1.1 
+Content-Type: text/html
+Content-Length: 570
+Connection: keep-alive
+
+--165fb448-H--
+Message: Access denied with code 403 (phase 2). Pattern match "(^[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+|[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+$)" at ARGS:utf8. [file "/usr/local/nginx/conf/modsecurity.conf"] [line "1793"] [id "981318"] [rev "2"] [msg "SQL Injection Attack: Common Injection Testing Detected"] [data "Matched Data: \xe2 found within ARGS:utf8: \xe2\x9c\x93"] [severity "CRITICAL"] [ver "OWASP_CRS/2.2.9"] [maturity "9"] [accuracy "8"] [tag "OWASP_CRS/WEB_ATTACK/SQL_INJECTION"] [tag "WASCTC/WASC-19"] [tag "OWASP_TOP_10/A1"] [tag "OWASP_AppSensor/CIE1"] [tag "PCI/6.5.2"]
+Message: Audit log: Failed to lock global mutex: Permission denied
+Action: Intercepted (phase 2)
+Apache-Handler: IIS
+Stopwatch: 1444464265000562 5567604 (- - -)
+Stopwatch2: 1444464265000562 5567604; combined=1535, p1=285, p2=1167, p3=0, p4=0, p5=83, sr=35, sw=0, l=0, gc=0
+Producer: ModSecurity for nginx (STABLE)/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: ModSecurity Standalone
+Engine-Mode: "ENABLED"
+
+--165fb448-Z--
+
+--25646922-A--
+[10/Oct/2015:15:07:03 +0700] AcAc0sAcccAcANAcAcAcAcAc 192.168.233.1 63833 127.0.0.1 80
+--25646922-B--
+POST /sessions HTTP/1.1
+Host: uit.com
+Connection: keep-alive
+Content-Length: 147
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Origin: http://uit.com
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/49.0 Chrome/43.0.2357.126 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Referer: http://uit.com/
+Accept-Encoding: gzip, deflate
+Accept-Language: vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2
+Cookie: has_js=1; _ga=GA1.2.198819154.1444084597; _session_id=BAh7B0kiD3Nlc3Npb25faWQGOgZFVEkiJTVjNzZlM2Q2MmU2NmI0Yjg5N2UwZmEyOTEyODY1YTJjBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMTU4aGVGZXIxb2Q2R3lWakZiZjJodjdWbllSWk84WW4vQUsxVEJDMU9xWG89BjsARg%3D%3D--4aa83363b404eb5d3cae9a18535e0ca38c7269f1
+
+--25646922-C--
+utf8=%E2%9C%93&authenticity_token=58heFer1od6GyVjFbf2hv7VnYRZO8Yn%2FAK1TBC1OqXo%3D&email=%3Cscript%3Ealert%28%27test%27%29%3C%2Fscript%3E&password=
+--25646922-F--
+HTTP/1.1 
+Content-Type: text/html
+Content-Length: 570
+Connection: keep-alive
+
+--25646922-H--
+Message: Access denied with code 403 (phase 2). Pattern match "\\W{4,}" at ARGS:email. [file "/usr/local/nginx/conf/modsecurity.conf"] [line "1528"] [id "960024"] [rev "2"] [msg "Meta-Character Anomaly Detection Alert - Repetative Non-Word Characters"] [data "Matched Data: ')</ found within ARGS:email: <script>alert('test')</script>"] [ver "OWASP_CRS/2.2.9"] [maturity "9"] [accuracy "8"]
+Message: Audit log: Failed to lock global mutex: Permission denied
+Action: Intercepted (phase 2)
+Apache-Handler: IIS
+Stopwatch: 1444464418000556 5561572 (- - -)
+Stopwatch2: 1444464418000556 5561572; combined=1035, p1=294, p2=634, p3=0, p4=0, p5=107, sr=16, sw=0, l=0, gc=0
+Producer: ModSecurity for nginx (STABLE)/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: ModSecurity Standalone
+Engine-Mode: "ENABLED"
+
+--25646922-Z--
+
+--19206b03-A--
+[10/Oct/2015:15:07:46 +0700] AcAcAcAcAcAc7zAcAcAc9cAc 192.168.233.1 63837 127.0.0.1 80
+--19206b03-B--
+POST /sessions HTTP/1.1
+Host: uit.com
+Connection: keep-alive
+Content-Length: 147
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Origin: http://uit.com
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/49.0 Chrome/43.0.2357.126 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Referer: http://uit.com/
+Accept-Encoding: gzip, deflate
+Accept-Language: vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2
+Cookie: has_js=1; _ga=GA1.2.198819154.1444084597; _session_id=BAh7B0kiD3Nlc3Npb25faWQGOgZFVEkiJTVjNzZlM2Q2MmU2NmI0Yjg5N2UwZmEyOTEyODY1YTJjBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMTU4aGVGZXIxb2Q2R3lWakZiZjJodjdWbllSWk84WW4vQUsxVEJDMU9xWG89BjsARg%3D%3D--4aa83363b404eb5d3cae9a18535e0ca38c7269f1
+
+--19206b03-C--
+utf8=%E2%9C%93&authenticity_token=58heFer1od6GyVjFbf2hv7VnYRZO8Yn%2FAK1TBC1OqXo%3D&email=%3Cscript%3Ealert%28%27test%27%29%3C%2Fscript%3E&password=
+--19206b03-F--
+HTTP/1.1 
+Content-Type: text/html
+Content-Length: 570
+Connection: keep-alive
+
+--19206b03-H--
+Message: Access denied with code 403 (phase 2). Pattern match "\\W{4,}" at ARGS:email. [file "/usr/local/nginx/conf/modsecurity.conf"] [line "1528"] [id "960024"] [rev "2"] [msg "Meta-Character Anomaly Detection Alert - Repetative Non-Word Characters"] [data "Matched Data: ')</ found within ARGS:email: <script>alert('test')</script>"] [ver "OWASP_CRS/2.2.9"] [maturity "9"] [accuracy "8"]
+Message: Audit log: Failed to lock global mutex: Permission denied
+Action: Intercepted (phase 2)
+Apache-Handler: IIS
+Stopwatch: 1444464461000720 5729279 (- - -)
+Stopwatch2: 1444464461000720 5729279; combined=1313, p1=433, p2=686, p3=0, p4=0, p5=193, sr=51, sw=1, l=0, gc=0
+Producer: ModSecurity for nginx (STABLE)/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: ModSecurity Standalone
+Engine-Mode: "ENABLED"
+
+--19206b03-Z--
+
+--8905990c-A--
+[10/Oct/2015:15:12:27 +0700] AcAnAcAcAcAcAcAcAcAcAcAS 192.168.233.1 63852 127.0.0.1 80
+--8905990c-B--
+POST /sessions HTTP/1.1
+Host: uit.com
+Connection: keep-alive
+Content-Length: 114
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Origin: http://uit.com
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/49.0 Chrome/43.0.2357.126 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Referer: http://uit.com/
+Accept-Encoding: gzip, deflate
+Accept-Language: vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2
+Cookie: has_js=1; _ga=GA1.2.198819154.1444084597; _session_id=BAh7B0kiD3Nlc3Npb25faWQGOgZFVEkiJTVjNzZlM2Q2MmU2NmI0Yjg5N2UwZmEyOTEyODY1YTJjBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMTU4aGVGZXIxb2Q2R3lWakZiZjJodjdWbllSWk84WW4vQUsxVEJDMU9xWG89BjsARg%3D%3D--4aa83363b404eb5d3cae9a18535e0ca38c7269f1
+
+--8905990c-C--
+utf8=%E2%9C%93&authenticity_token=58heFer1od6GyVjFbf2hv7VnYRZO8Yn%2FAK1TBC1OqXo%3D&email=%27%27%27%27&password=abc
+--8905990c-F--
+HTTP/1.1 
+Content-Type: text/html
+Content-Length: 570
+Connection: keep-alive
+
+--8905990c-H--
+Message: Access denied with code 403 (phase 2). Pattern match "\\W{4,}" at ARGS:email. [file "/usr/local/nginx/conf/modsecurity.conf"] [line "1528"] [id "960024"] [rev "2"] [msg "Meta-Character Anomaly Detection Alert - Repetative Non-Word Characters"] [data "Matched Data: '''' found within ARGS:email: ''''"] [ver "OWASP_CRS/2.2.9"] [maturity "9"] [accuracy "8"]
+Message: Audit log: Failed to lock global mutex: Permission denied
+Action: Intercepted (phase 2)
+Apache-Handler: IIS
+Stopwatch: 1444464742000155 5165174 (- - -)
+Stopwatch2: 1444464742000155 5165174; combined=1313, p1=396, p2=731, p3=0, p4=0, p5=185, sr=22, sw=1, l=0, gc=0
+Producer: ModSecurity for nginx (STABLE)/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: ModSecurity Standalone
+Engine-Mode: "ENABLED"
+
+--8905990c-Z--
+
+--00d59639-A--
+[10/Oct/2015:15:12:46 +0700] AmAcAcAcAcADAccEAcAcxcVK 192.168.233.1 63853 127.0.0.1 80
+--00d59639-B--
+POST /sessions HTTP/1.1
+Host: uit.com
+Connection: keep-alive
+Content-Length: 113
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Origin: http://uit.com
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/49.0 Chrome/43.0.2357.126 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Referer: http://uit.com/
+Accept-Encoding: gzip, deflate
+Accept-Language: vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2
+Cookie: has_js=1; _ga=GA1.2.198819154.1444084597; _session_id=BAh7B0kiD3Nlc3Npb25faWQGOgZFVEkiJTVjNzZlM2Q2MmU2NmI0Yjg5N2UwZmEyOTEyODY1YTJjBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMTU4aGVGZXIxb2Q2R3lWakZiZjJodjdWbllSWk84WW4vQUsxVEJDMU9xWG89BjsARg%3D%3D--4aa83363b404eb5d3cae9a18535e0ca38c7269f1
+
+--00d59639-C--
+utf8=%E2%9C%93&authenticity_token=58heFer1od6GyVjFbf2hv7VnYRZO8Yn%2FAK1TBC1OqXo%3D&email=xinchao&password=xinchao
+--00d59639-F--
+HTTP/1.1 
+Content-Type: text/html
+Content-Length: 570
+Connection: keep-alive
+
+--00d59639-H--
+Message: Access denied with code 403 (phase 2). Pattern match "(^[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+|[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+$)" at ARGS:utf8. [file "/usr/local/nginx/conf/modsecurity.conf"] [line "1793"] [id "981318"] [rev "2"] [msg "SQL Injection Attack: Common Injection Testing Detected"] [data "Matched Data: \xe2 found within ARGS:utf8: \xe2\x9c\x93"] [severity "CRITICAL"] [ver "OWASP_CRS/2.2.9"] [maturity "9"] [accuracy "8"] [tag "OWASP_CRS/WEB_ATTACK/SQL_INJECTION"] [tag "WASCTC/WASC-19"] [tag "OWASP_TOP_10/A1"] [tag "OWASP_AppSensor/CIE1"] [tag "PCI/6.5.2"]
+Message: Audit log: Failed to lock global mutex: Permission denied
+Action: Intercepted (phase 2)
+Apache-Handler: IIS
+Stopwatch: 1444464761000666 5672185 (- - -)
+Stopwatch2: 1444464761000666 5672185; combined=1763, p1=218, p2=1278, p3=0, p4=0, p5=266, sr=13, sw=1, l=0, gc=0
+Producer: ModSecurity for nginx (STABLE)/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: ModSecurity Standalone
+Engine-Mode: "ENABLED"
+
+--00d59639-Z--
+
+--9efd5271-A--
+[10/Oct/2015:15:13:27 +0700] AcAc6caMAcAcAc2cAcs5AcAY 192.168.233.1 63857 127.0.0.1 80
+--9efd5271-B--
+POST /sessions HTTP/1.1
+Host: uit.com
+Connection: keep-alive
+Content-Length: 105
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Origin: http://uit.com
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/49.0 Chrome/43.0.2357.126 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Referer: http://uit.com/
+Accept-Encoding: gzip, deflate
+Accept-Language: vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2
+Cookie: has_js=1; _ga=GA1.2.198819154.1444084597; _session_id=BAh7B0kiD3Nlc3Npb25faWQGOgZFVEkiJTVjNzZlM2Q2MmU2NmI0Yjg5N2UwZmEyOTEyODY1YTJjBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMTU4aGVGZXIxb2Q2R3lWakZiZjJodjdWbllSWk84WW4vQUsxVEJDMU9xWG89BjsARg%3D%3D--4aa83363b404eb5d3cae9a18535e0ca38c7269f1
+
+--9efd5271-C--
+utf8=%E2%9C%93&authenticity_token=58heFer1od6GyVjFbf2hv7VnYRZO8Yn%2FAK1TBC1OqXo%3D&email=abc&password=123
+--9efd5271-F--
+HTTP/1.1 
+Content-Type: text/html
+Content-Length: 570
+Connection: keep-alive
+
+--9efd5271-H--
+Message: Access denied with code 403 (phase 2). Pattern match "(^[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+|[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+$)" at ARGS:utf8. [file "/usr/local/nginx/conf/modsecurity.conf"] [line "1793"] [id "981318"] [rev "2"] [msg "SQL Injection Attack: Common Injection Testing Detected"] [data "Matched Data: \xe2 found within ARGS:utf8: \xe2\x9c\x93"] [severity "CRITICAL"] [ver "OWASP_CRS/2.2.9"] [maturity "9"] [accuracy "8"] [tag "OWASP_CRS/WEB_ATTACK/SQL_INJECTION"] [tag "WASCTC/WASC-19"] [tag "OWASP_TOP_10/A1"] [tag "OWASP_AppSensor/CIE1"] [tag "PCI/6.5.2"]
+Message: Audit log: Failed to lock global mutex: Permission denied
+Action: Intercepted (phase 2)
+Apache-Handler: IIS
+Stopwatch: 1444464802000627 5632764 (- - -)
+Stopwatch2: 1444464802000627 5632764; combined=1486, p1=293, p2=1117, p3=0, p4=0, p5=75, sr=12, sw=1, l=0, gc=0
+Producer: ModSecurity for nginx (STABLE)/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: ModSecurity Standalone
+Engine-Mode: "ENABLED"
+
+--9efd5271-Z--
+
+--11d6d944-A--
+[10/Oct/2015:15:13:54 +0700] AcAcAcAcScAcAcAcAcAcBcAc 192.168.233.1 63859 127.0.0.1 80
+--11d6d944-B--
+POST /sessions HTTP/1.1
+Host: uit.com
+Connection: keep-alive
+Content-Length: 105
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Origin: http://uit.com
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/49.0 Chrome/43.0.2357.126 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Referer: http://uit.com/
+Accept-Encoding: gzip, deflate
+Accept-Language: vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2
+Cookie: has_js=1; _ga=GA1.2.198819154.1444084597; _session_id=BAh7B0kiD3Nlc3Npb25faWQGOgZFVEkiJTVjNzZlM2Q2MmU2NmI0Yjg5N2UwZmEyOTEyODY1YTJjBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMTU4aGVGZXIxb2Q2R3lWakZiZjJodjdWbllSWk84WW4vQUsxVEJDMU9xWG89BjsARg%3D%3D--4aa83363b404eb5d3cae9a18535e0ca38c7269f1
+
+--11d6d944-C--
+utf8=%E2%9C%93&authenticity_token=58heFer1od6GyVjFbf2hv7VnYRZO8Yn%2FAK1TBC1OqXo%3D&email=abc&password=123
+--11d6d944-F--
+HTTP/1.1 
+Content-Type: text/html
+Content-Length: 570
+Connection: keep-alive
+
+--11d6d944-H--
+Message: Access denied with code 403 (phase 2). Pattern match "(^[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+|[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+$)" at ARGS:utf8. [file "/usr/local/nginx/conf/modsecurity.conf"] [line "1793"] [id "981318"] [rev "2"] [msg "SQL Injection Attack: Common Injection Testing Detected"] [data "Matched Data: \xe2 found within ARGS:utf8: \xe2\x9c\x93"] [severity "CRITICAL"] [ver "OWASP_CRS/2.2.9"] [maturity "9"] [accuracy "8"] [tag "OWASP_CRS/WEB_ATTACK/SQL_INJECTION"] [tag "WASCTC/WASC-19"] [tag "OWASP_TOP_10/A1"] [tag "OWASP_AppSensor/CIE1"] [tag "PCI/6.5.2"]
+Message: Audit log: Failed to lock global mutex: Permission denied
+Action: Intercepted (phase 2)
+Apache-Handler: IIS
+Stopwatch: 1444464829000127 5137262 (- - -)
+Stopwatch2: 1444464829000127 5137262; combined=1912, p1=369, p2=1291, p3=0, p4=0, p5=251, sr=40, sw=1, l=0, gc=0
+Producer: ModSecurity for nginx (STABLE)/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: ModSecurity Standalone
+Engine-Mode: "ENABLED"
+
+--11d6d944-Z--
+

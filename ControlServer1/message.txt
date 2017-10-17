@@ -1,0 +1,748 @@
+
+--77f54e39-A--[06/Oct/2017:11:20:14 +0700] AcAcAcAcA@ycAcAc0NQIKcAc 192.168.1.4 50804 127.0.0.1 80
+GET /vulnerabilities/sqli/?id=%271+or+1%3D1&Submit=Submit&user_token=0abbd5452e289d4c4e24b7ec2bb3485b HTTP/1.1
+
+Host: abc.def.com
+Connection: keep-alive--77f54e39-B--
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://abc.def.com/vulnerabilities/sqli/
+Accept-Language: vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2
+Cookie: PHPSESSID=euffs838jd6gq116c0lued2u3f; security=impossible
+
+
+
+--77f54e39-F--Accept-Encoding: gzip, deflate
+HTTP/1.1 
+Content-Type: text/html
+
+Content-Length: 570Connection: keep-alive
+
+--77f54e39-H--
+cal/nginx/conf/base_rules/modsecurity_crs_41_sql_injection_attacks.conf"] [line "64"] [id "981318"] [rev "2"] [msg "SQL Injection Attack: Common Injection Testing Detected"] [data "Matched Data: ' found within ARGS:id: '1 or 1=1"] [severity "CRITICAL"] [ver "OWASP_CRS/2.2.9"] [maturity "9"] [accuracy "8"] [tag "OWASP_CRS/WEB_ATTACK/SQL_INJECTION"] [tag "WASCTC/WASC-19"] [tag "OWASP_TOP_10/A1"] [tag "OWASP_AppSensor/CIE1"] [tag "PCI/6.5.2"]Message: Access denied with code 403 (phase 2). Pattern match "(^[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+|[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+$)" at ARGS:id. [file "/usr/lo
+Message: Audit log: Failed to lock global mutex: Permission denied
+Action: Intercepted (phase 2)
+Apache-Handler: IIS
+Stopwatch: 1507263614000216 223555 (- - -)
+Stopwatch2: 1507263614000216 223555; combined=1367, p1=54, p2=1272, p3=0, p4=0, p5=41, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for nginx (STABLE)/2.9.0 (http://www.modsecurity.org/).
+Server: ModSecurity Standalone
+Engine-Mode: "ENABLED"
+
+--77f54e39-Z--
+
+
+--77f54e39-A--
+[06/Oct/2017:11:20:14 +0700] AcAcAcAcA@ycAcAc0NQIKcAc 192.168.1.4 50804 127.0.0.1 80
+--77f54e39-B--
+GET /vulnerabilities/sqli/?id=%271+or+1%3D1&Submit=Submit&user_token=0abbd5452e289d4c4e24b7ec2bb3485b HTTP/1.1
+Host: abc.def.com
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://abc.def.com/vulnerabilities/sqli/
+Accept-Encoding: gzip, deflate
+Accept-Language: vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2
+
+--77f54e39-F--
+HTTP/1.1 
+Content-Type: text/html
+Content-Length: 570
+Connection: keep-alive
+
+--77f54e39-H--
+Message: Access denied with code 403 (phase 2). Pattern match "(^[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+|[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+$)" at ARGS:id. [file "/usr/local/nginx/conf/base_rules/modsecurity_crs_41_sql_injection_attacks.conf"] [line "64"] [id "981318"] [rev "2"] [msg "SQL Injection Attack: Common Injection Testing Detected"] [data "Matched Data: ' found within ARGS:id: '1 or 1=1"] [severity "CRITICAL"] [ver "OWASP_CRS/2.2.9"] [maturity "9"] [accuracy "8"] [tag "OWASP_CRS/WEB_ATTACK/SQL_INJECTION"] [tag "WASCTC/WASC-19"] [tag "OWASP_TOP_10/A1"] [tag "OWASP_AppSensor/CIE1"] [tag "PCI/6.5.2"]
+Message: Audit log: Failed to lock global mutex: Permission denied
+Action: Intercepted (phase 2)
+Apache-Handler: IIS
+Stopwatch: 1507263614000216 223555 (- - -)
+Stopwatch2: 1507263614000216 223555; combined=1367, p1=54, p2=1272, p3=0, p4=0, p5=41, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for nginx (STABLE)/2.9.0 (http://www.modsecurity.org/).
+Server: ModSecurity Standalone
+Engine-Mode: "ENABLED"
+
+--77f54e39-Z--
+
+Cookie: PHPSESSID=euffs838jd6gq116c0lued2u3f; security=impossible
+
+--77f54e39-A--
+[06/Oct/2017:11:20:14 +0700] AcAcAcAcA@ycAcAc0NQIKcAc 192.168.1.4 50804 127.0.0.1 80
+--77f54e39-B--
+GET /vulnerabilities/sqli/?id=%271+or+1%3D1&Submit=Submit&user_token=0abbd5452e289d4c4e24b7ec2bb3485b HTTP/1.1Host: abc.def.com
+
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8Referer: http://abc.def.com/vulnerabilities/sqli/
+Accept-Encoding: gzip, deflate
+Accept-Language: vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2
+Cookie: PHPSESSID=euffs838jd6gq116c0lued2u3f; security=impossible
+
+--77f54e39-F--
+HTTP/1.1 
+Content-Type: text/html
+Content-Length: 570
+
+Connection: keep-alive
+--77f54e39-H--Message: Access denied with code 403 (phase 2). Pattern match "(^[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+|[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+$)" at ARGS:id. [file "/usr/lo
+
+cal/nginx/conf/base_rules/modsecurity_crs_41_sql_injection_attacks.conf"] [line "64"] [id "981318"] [rev "2"] [msg "SQL Injection Attack: Common Injection Testing Detected"] [data "Matched Data: ' found within ARGS:id: '1 or 1=1"] [severity "CRITICAL"] [ver "OWASP_CRS/2.2.9"] [maturity "9"] [accuracy "8"] [tag "OWASP_CRS/WEB_ATTACK/SQL_INJECTION"] [tag "WASCTC/WASC-19"] [tag "OWASP_TOP_10/A1"] [tag "OWASP_AppSensor/CIE1"] [tag "PCI/6.5.2"]Message: Audit log: Failed to lock global mutex: Permission denied
+
+Action: Intercepted (phase 2)
+
+Stopwatch: 1507263614000216 223555 (- - -)
+Stopwatch2: 1507263614000216 223555; combined=1367, p1=54, p2=1272, p3=0, p4=0, p5=41, sr=0, sw=0, l=0, gc=0Producer: ModSecurity for nginx (STABLE)/2.9.0 (http://www.modsecurity.org/).
+
+Server: ModSecurity Standalone
+Engine-Mode: "ENABLED"
+Apache-Handler: IIS
+
+--77f54e39-Z--
+
+
+--77f54e39-A--
+
+--77f54e39-B--[06/Oct/2017:11:20:14 +0700] AcAcAcAcA@ycAcAc0NQIKcAc 192.168.1.4 50804 127.0.0.1 80
+GET /vulnerabilities/sqli/?id=%271+or+1%3D1&Submit=Submit&user_token=0abbd5452e289d4c4e24b7ec2bb3485b HTTP/1.1
+Host: abc.def.com
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://abc.def.com/vulnerabilities/sqli/
+Accept-Encoding: gzip, deflate
+Accept-Language: vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2
+Cookie: PHPSESSID=euffs838jd6gq116c0lued2u3f; security=impossible
+
+--77f54e39-F--
+HTTP/1.1 
+Content-Type: text/html
+Connection: keep-alive--77f54e39-H--
+
+
+cal/nginx/conf/base_rules/modsecurity_crs_41_sql_injection_attacks.conf"] [line "64"] [id "981318"] [rev "2"] [msg "SQL Injection Attack: Common Injection Testing Detected"] [data "Matched Data: ' found within ARGS:id: '1 or 1=1"] [severity "CRITICAL"] [ver "OWASP_CRS/2.2.9"] [maturity "9"] [accuracy "8"] [tag "OWASP_CRS/WEB_ATTACK/SQL_INJECTION"] [tag "WASCTC/WASC-19"] [tag "OWASP_TOP_10/A1"] [tag "OWASP_AppSensor/CIE1"] [tag "PCI/6.5.2"]Message: Access denied with code 403 (phase 2). Pattern match "(^[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+|[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+$)" at ARGS:id. [file "/usr/loMessage: Audit log: Failed to lock global mutex: Permission denied
+
+Action: Intercepted (phase 2)Content-Length: 570Apache-Handler: IIS
+Stopwatch: 1507263614000216 223555 (- - -)
+Stopwatch2: 1507263614000216 223555; combined=1367, p1=54, p2=1272, p3=0, p4=0, p5=41, sr=0, sw=0, l=0, gc=0Producer: ModSecurity for nginx (STABLE)/2.9.0 (http://www.modsecurity.org/).
+
+Server: ModSecurity StandaloneEngine-Mode: "ENABLED"
+
+
+
+
+
+--77f54e39-Z--
+
+--77f54e39-A--[06/Oct/2017:11:20:14 +0700] AcAcAcAcA@ycAcAc0NQIKcAc 192.168.1.4 50804 127.0.0.1 80
+GET /vulnerabilities/sqli/?id=%271+or+1%3D1&Submit=Submit&user_token=0abbd5452e289d4c4e24b7ec2bb3485b HTTP/1.1
+Host: abc.def.com
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://abc.def.com/vulnerabilities/sqli/
+Accept-Encoding: gzip, deflate
+
+
+Accept-Language: vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2Cookie: PHPSESSID=euffs838jd6gq116c0lued2u3f; security=impossible
+
+--77f54e39-F--
+
+HTTP/1.1 Content-Type: text/html
+Content-Length: 570
+
+Connection: keep-alive
+
+--77f54e39-H--Message: Access denied with code 403 (phase 2). Pattern match "(^[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+|[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+$)" at ARGS:id. [file "/usr/local/nginx/conf/base_rules/modsecurity_crs_41_sql_injection_attacks.conf"] [line "64"] [id "981318"] [rev "2"] [msg "SQL Injection Attack: Common Injection Testing Detected"] [data "Matched Data: ' found within ARGS:id: '1 or 1=1"] [severity "CRITICAL"] [ver "OWASP_CRS/2.2.9"] [maturity "9"] [accuracy "8"] [tag "OWASP_CRS/WEB_ATTACK/SQL_INJECTION"] [tag "WASCTC/WASC-19"] [tag "OWASP_TOP_10/A1"] [tag "OWASP_AppSensor/CIE1"] [tag "PCI/6.5.2"]
+Action: Intercepted (phase 2)
+Apache-Handler: IIS
+Stopwatch: 1507263614000216 223555 (- - -)
+Stopwatch2: 1507263614000216 223555; combined=1367, p1=54, p2=1272, p3=0, p4=0, p5=41, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for nginx (STABLE)/2.9.0 (http://www.modsecurity.org/).Message: Audit log: Failed to lock global mutex: Permission denied
+
+Server: ModSecurity Standalone
+--77f54e39-B--Engine-Mode: "ENABLED"
+--77f54e39-Z--
+
+
+
+
+--77f54e39-A--
+[06/Oct/2017:11:20:14 +0700] AcAcAcAcA@ycAcAc0NQIKcAc 192.168.1.4 50804 127.0.0.1 80
+--77f54e39-B--
+GET /vulnerabilities/sqli/?id=%271+or+1%3D1&Submit=Submit&user_token=0abbd5452e289d4c4e24b7ec2bb3485b HTTP/1.1
+Host: abc.def.com
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://abc.def.com/vulnerabilities/sqli/
+Accept-Encoding: gzip, deflate
+Accept-Language: vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2
+Cookie: PHPSESSID=euffs838jd6gq116c0lued2u3f; security=impossible
+
+--77f54e39-F--
+HTTP/1.1 
+Content-Type: text/htmlContent-Length: 570
+Connection: keep-alive
+--77f54e39-H--
+Message: Access denied with code 403 (phase 2). Pattern match "(^[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+|[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+$)" at ARGS:id. [file "/usr/loMessage: Audit log: Failed to lock global mutex: Permission denied
+cal/nginx/conf/base_rules/modsecurity_crs_41_sql_injection_attacks.conf"] [line "64"] [id "981318"] [rev "2"] [msg "SQL Injection Attack: Common Injection Testing Detected"] [data "Matched Data: ' found within ARGS:id: '1 or 1=1"] [severity "CRITICAL"] [ver "OWASP_CRS/2.2.9"] [maturity "9"] [accuracy "8"] [tag "OWASP_CRS/WEB_ATTACK/SQL_INJECTION"] [tag "WASCTC/WASC-19"] [tag "OWASP_TOP_10/A1"] [tag "OWASP_AppSensor/CIE1"] [tag "PCI/6.5.2"]
+Apache-Handler: IISAction: Intercepted (phase 2)
+
+Stopwatch: 1507263614000216 223555 (- - -)
+Stopwatch2: 1507263614000216 223555; combined=1367, p1=54, p2=1272, p3=0, p4=0, p5=41, sr=0, sw=0, l=0, gc=0
+
+
+Server: ModSecurity Standalone
+Engine-Mode: "ENABLED"
+
+
+Producer: ModSecurity for nginx (STABLE)/2.9.0 (http://www.modsecurity.org/).
+--77f54e39-Z--
+
+--77f54e39-A--[06/Oct/2017:11:20:14 +0700] AcAcAcAcA@ycAcAc0NQIKcAc 192.168.1.4 50804 127.0.0.1 80
+--77f54e39-B--GET /vulnerabilities/sqli/?id=%271+or+1%3D1&Submit=Submit&user_token=0abbd5452e289d4c4e24b7ec2bb3485b HTTP/1.1
+Host: abc.def.com
+Connection: keep-alive
+
+
+Upgrade-Insecure-Requests: 1User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+
+Referer: http://abc.def.com/vulnerabilities/sqli/Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflateAccept-Language: vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2
+
+Cookie: PHPSESSID=euffs838jd6gq116c0lued2u3f; security=impossible
+
+--77f54e39-F--
+HTTP/1.1 Content-Type: text/html
+
+
+Connection: keep-aliveContent-Length: 570
+
+
+--77f54e39-H--
+Message: Access denied with code 403 (phase 2). Pattern match "(^[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+|[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+$)" at ARGS:id. [file "/usr/local/nginx/conf/base_rules/modsecurity_crs_41_sql_injection_attacks.conf"] [line "64"] [id "981318"] [rev "2"] [msg "SQL Injection Attack: Common Injection Testing Detected"] [data "Matched Data: ' found within ARGS:id: '1 or 1=1"] [severity "CRITICAL"] [ver "OWASP_CRS/2.2.9"] [maturity "9"] [accuracy "8"] [tag "OWASP_CRS/WEB_ATTACK/SQL_INJECTION"] [tag "WASCTC/WASC-19"] [tag "OWASP_TOP_10/A1"] [tag "OWASP_AppSensor/CIE1"] [tag "PCI/6.5.2"]
+Message: Audit log: Failed to lock global mutex: Permission denied
+Action: Intercepted (phase 2)
+Apache-Handler: IIS
+Stopwatch: 1507263614000216 223555 (- - -)
+Stopwatch2: 1507263614000216 223555; combined=1367, p1=54, p2=1272, p3=0, p4=0, p5=41, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for nginx (STABLE)/2.9.0 (http://www.modsecurity.org/).
+Server: ModSecurity Standalone
+Engine-Mode: "ENABLED"
+
+--77f54e39-Z--
+
+
+--77f54e39-A--[06/Oct/2017:11:20:14 +0700] AcAcAcAcA@ycAcAc0NQIKcAc 192.168.1.4 50804 127.0.0.1 80
+GET /vulnerabilities/sqli/?id=%271+or+1%3D1&Submit=Submit&user_token=0abbd5452e289d4c4e24b7ec2bb3485b HTTP/1.1
+Host: abc.def.com
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://abc.def.com/vulnerabilities/sqli/
+--77f54e39-B--Accept-Encoding: gzip, deflate
+
+Accept-Language: vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2
+Cookie: PHPSESSID=euffs838jd6gq116c0lued2u3f; security=impossible
+--77f54e39-F--
+
+HTTP/1.1 
+Content-Type: text/html
+Content-Length: 570
+Connection: keep-alive
+
+
+--77f54e39-H--
+Message: Access denied with code 403 (phase 2). Pattern match "(^[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+|[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+$)" at ARGS:id. [file "/usr/local/nginx/conf/base_rules/modsecurity_crs_41_sql_injection_attacks.conf"] [line "64"] [id "981318"] [rev "2"] [msg "SQL Injection Attack: Common Injection Testing Detected"] [data "Matched Data: ' found within ARGS:id: '1 or 1=1"] [severity "CRITICAL"] [ver "OWASP_CRS/2.2.9"] [maturity "9"] [accuracy "8"] [tag "OWASP_CRS/WEB_ATTACK/SQL_INJECTION"] [tag "WASCTC/WASC-19"] [tag "OWASP_TOP_10/A1"] [tag "OWASP_AppSensor/CIE1"] [tag "PCI/6.5.2"]
+Message: Audit log: Failed to lock global mutex: Permission denied
+Action: Intercepted (phase 2)
+Apache-Handler: IIS
+Stopwatch: 1507263614000216 223555 (- - -)
+Stopwatch2: 1507263614000216 223555; combined=1367, p1=54, p2=1272, p3=0, p4=0, p5=41, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for nginx (STABLE)/2.9.0 (http://www.modsecurity.org/).
+Server: ModSecurity Standalone
+Engine-Mode: "ENABLED"
+
+--77f54e39-Z--
+
+
+--77f54e39-A--
+[06/Oct/2017:11:20:14 +0700] AcAcAcAcA@ycAcAc0NQIKcAc 192.168.1.4 50804 127.0.0.1 80
+--77f54e39-B--
+GET /vulnerabilities/sqli/?id=%271+or+1%3D1&Submit=Submit&user_token=0abbd5452e289d4c4e24b7ec2bb3485b HTTP/1.1
+Host: abc.def.com
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://abc.def.com/vulnerabilities/sqli/
+Accept-Encoding: gzip, deflate
+Accept-Language: vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2
+Cookie: PHPSESSID=euffs838jd6gq116c0lued2u3f; security=impossible
+
+--77f54e39-F--
+HTTP/1.1 
+Content-Type: text/html
+Content-Length: 570
+Connection: keep-alive
+
+--77f54e39-H--
+Message: Access denied with code 403 (phase 2). Pattern match "(^[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+|[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+$)" at ARGS:id. [file "/usr/local/nginx/conf/base_rules/modsecurity_crs_41_sql_injection_attacks.conf"] [line "64"] [id "981318"] [rev "2"] [msg "SQL Injection Attack: Common Injection Testing Detected"] [data "Matched Data: ' found within ARGS:id: '1 or 1=1"] [severity "CRITICAL"] [ver "OWASP_CRS/2.2.9"] [maturity "9"] [accuracy "8"] [tag "OWASP_CRS/WEB_ATTACK/SQL_INJECTION"] [tag "WASCTC/WASC-19"] [tag "OWASP_TOP_10/A1"] [tag "OWASP_AppSensor/CIE1"] [tag "PCI/6.5.2"]
+Message: Audit log: Failed to lock global mutex: Permission denied
+Action: Intercepted (phase 2)
+Apache-Handler: IIS
+Stopwatch: 1507263614000216 223555 (- - -)
+Stopwatch2: 1507263614000216 223555; combined=1367, p1=54, p2=1272, p3=0, p4=0, p5=41, sr=0, sw=0, l=0, gc=0
+Server: ModSecurity StandaloneProducer: ModSecurity for nginx (STABLE)/2.9.0 (http://www.modsecurity.org/).
+
+
+
+Engine-Mode: "ENABLED"--77f54e39-Z--
+
+
+--77f54e39-A--
+
+[06/Oct/2017:11:20:14 +0700] AcAcAcAcA@ycAcAc0NQIKcAc 192.168.1.4 50804 127.0.0.1 80--77f54e39-B--GET /vulnerabilities/sqli/?id=%271+or+1%3D1&Submit=Submit&user_token=0abbd5452e289d4c4e24b7ec2bb3485b HTTP/1.1
+
+Host: abc.def.com
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://abc.def.com/vulnerabilities/sqli/
+Accept-Encoding: gzip, deflate
+Accept-Language: vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2
+Cookie: PHPSESSID=euffs838jd6gq116c0lued2u3f; security=impossible
+
+--77f54e39-F--
+HTTP/1.1 
+Content-Type: text/html
+Content-Length: 570
+Connection: keep-alive
+
+--77f54e39-H--
+
+Message: Access denied with code 403 (phase 2). Pattern match "(^[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+|[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+$)" at ARGS:id. [file "/usr/loMessage: Audit log: Failed to lock global mutex: Permission deniedcal/nginx/conf/base_rules/modsecurity_crs_41_sql_injection_attacks.conf"] [line "64"] [id "981318"] [rev "2"] [msg "SQL Injection Attack: Common Injection Testing Detected"] [data "Matched Data: ' found within ARGS:id: '1 or 1=1"] [severity "CRITICAL"] [ver "OWASP_CRS/2.2.9"] [maturity "9"] [accuracy "8"] [tag "OWASP_CRS/WEB_ATTACK/SQL_INJECTION"] [tag "WASCTC/WASC-19"] [tag "OWASP_TOP_10/A1"] [tag "OWASP_AppSensor/CIE1"] [tag "PCI/6.5.2"]
+Action: Intercepted (phase 2)Apache-Handler: IIS
+
+Stopwatch: 1507263614000216 223555 (- - -)
+Stopwatch2: 1507263614000216 223555; combined=1367, p1=54, p2=1272, p3=0, p4=0, p5=41, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for nginx (STABLE)/2.9.0 (http://www.modsecurity.org/).
+Server: ModSecurity Standalone
+Engine-Mode: "ENABLED"
+
+
+
+--77f54e39-Z--
+--77f54e39-A--
+[06/Oct/2017:11:20:14 +0700] AcAcAcAcA@ycAcAc0NQIKcAc 192.168.1.4 50804 127.0.0.1 80
+--77f54e39-B--
+GET /vulnerabilities/sqli/?id=%271+or+1%3D1&Submit=Submit&user_token=0abbd5452e289d4c4e24b7ec2bb3485b HTTP/1.1
+Host: abc.def.com
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8Referer: http://abc.def.com/vulnerabilities/sqli/
+Accept-Encoding: gzip, deflate
+Cookie: PHPSESSID=euffs838jd6gq116c0lued2u3f; security=impossibleAccept-Language: vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2
+
+
+
+HTTP/1.1 Content-Type: text/html
+Content-Length: 570
+--77f54e39-F--
+
+--77f54e39-H--Connection: keep-aliveMessage: Access denied with code 403 (phase 2). Pattern match "(^[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+|[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+$)" at ARGS:id. [file "/usr/local/nginx/conf/base_rules/modsecurity_crs_41_sql_injection_attacks.conf"] [line "64"] [id "981318"] [rev "2"] [msg "SQL Injection Attack: Common Injection Testing Detected"] [data "Matched Data: ' found within ARGS:id: '1 or 1=1"] [severity "CRITICAL"] [ver "OWASP_CRS/2.2.9"] [maturity "9"] [accuracy "8"] [tag "OWASP_CRS/WEB_ATTACK/SQL_INJECTION"] [tag "WASCTC/WASC-19"] [tag "OWASP_TOP_10/A1"] [tag "OWASP_AppSensor/CIE1"] [tag "PCI/6.5.2"]
+Message: Audit log: Failed to lock global mutex: Permission denied
+
+
+Apache-Handler: IISStopwatch: 1507263614000216 223555 (- - -)
+Stopwatch2: 1507263614000216 223555; combined=1367, p1=54, p2=1272, p3=0, p4=0, p5=41, sr=0, sw=0, l=0, gc=0Producer: ModSecurity for nginx (STABLE)/2.9.0 (http://www.modsecurity.org/).
+
+Server: ModSecurity Standalone
+Engine-Mode: "ENABLED"Action: Intercepted (phase 2)
+
+--77f54e39-Z--
+
+
+
+
+--77f54e39-A--
+[06/Oct/2017:11:20:14 +0700] AcAcAcAcA@ycAcAc0NQIKcAc 192.168.1.4 50804 127.0.0.1 80
+--77f54e39-B--
+GET /vulnerabilities/sqli/?id=%271+or+1%3D1&Submit=Submit&user_token=0abbd5452e289d4c4e24b7ec2bb3485b HTTP/1.1
+Host: abc.def.com
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://abc.def.com/vulnerabilities/sqli/
+Accept-Encoding: gzip, deflate
+Accept-Language: vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2
+Cookie: PHPSESSID=euffs838jd6gq116c0lued2u3f; security=impossible
+
+--77f54e39-F--
+HTTP/1.1 
+Content-Type: text/html
+Content-Length: 570
+
+Connection: keep-alive
+--77f54e39-H--
+Message: Access denied with code 403 (phase 2). Pattern match "(^[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+|[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+$)" at ARGS:id. [file "/usr/local/nginx/conf/base_rules/modsecurity_crs_41_sql_injection_attacks.conf"] [line "64"] [id "981318"] [rev "2"] [msg "SQL Injection Attack: Common Injection Testing Detected"] [data "Matched Data: ' found within ARGS:id: '1 or 1=1"] [severity "CRITICAL"] [ver "OWASP_CRS/2.2.9"] [maturity "9"] [accuracy "8"] [tag "OWASP_CRS/WEB_ATTACK/SQL_INJECTION"] [tag "WASCTC/WASC-19"] [tag "OWASP_TOP_10/A1"] [tag "OWASP_AppSensor/CIE1"] [tag "PCI/6.5.2"]
+Message: Audit log: Failed to lock global mutex: Permission denied
+Action: Intercepted (phase 2)
+Apache-Handler: IIS
+Stopwatch: 1507263614000216 223555 (- - -)
+Stopwatch2: 1507263614000216 223555; combined=1367, p1=54, p2=1272, p3=0, p4=0, p5=41, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for nginx (STABLE)/2.9.0 (http://www.modsecurity.org/).
+Server: ModSecurity Standalone
+Engine-Mode: "ENABLED"
+
+--77f54e39-Z--
+
+
+--77f54e39-A--
+[06/Oct/2017:11:20:14 +0700] AcAcAcAcA@ycAcAc0NQIKcAc 192.168.1.4 50804 127.0.0.1 80
+--77f54e39-B--
+GET /vulnerabilities/sqli/?id=%271+or+1%3D1&Submit=Submit&user_token=0abbd5452e289d4c4e24b7ec2bb3485b HTTP/1.1
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://abc.def.com/vulnerabilities/sqli/
+Accept-Encoding: gzip, deflate
+Accept-Language: vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2
+Cookie: PHPSESSID=euffs838jd6gq116c0lued2u3f; security=impossible
+
+--77f54e39-F--
+Host: abc.def.com
+Content-Type: text/html
+
+Content-Length: 570HTTP/1.1 Connection: keep-alive
+
+
+--77f54e39-H--
+Message: Access denied with code 403 (phase 2). Pattern match "(^[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+|[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+$)" at ARGS:id. [file "/usr/loMessage: Audit log: Failed to lock global mutex: Permission denied
+cal/nginx/conf/base_rules/modsecurity_crs_41_sql_injection_attacks.conf"] [line "64"] [id "981318"] [rev "2"] [msg "SQL Injection Attack: Common Injection Testing Detected"] [data "Matched Data: ' found within ARGS:id: '1 or 1=1"] [severity "CRITICAL"] [ver "OWASP_CRS/2.2.9"] [maturity "9"] [accuracy "8"] [tag "OWASP_CRS/WEB_ATTACK/SQL_INJECTION"] [tag "WASCTC/WASC-19"] [tag "OWASP_TOP_10/A1"] [tag "OWASP_AppSensor/CIE1"] [tag "PCI/6.5.2"]
+
+Action: Intercepted (phase 2)Apache-Handler: IISStopwatch: 1507263614000216 223555 (- - -)Stopwatch2: 1507263614000216 223555; combined=1367, p1=54, p2=1272, p3=0, p4=0, p5=41, sr=0, sw=0, l=0, gc=0
+
+
+Producer: ModSecurity for nginx (STABLE)/2.9.0 (http://www.modsecurity.org/).Server: ModSecurity Standalone
+
+Engine-Mode: "ENABLED"
+
+
+--77f54e39-Z--
+
+--77f54e39-A--
+[06/Oct/2017:11:20:14 +0700] AcAcAcAcA@ycAcAc0NQIKcAc 192.168.1.4 50804 127.0.0.1 80
+
+--77f54e39-B--GET /vulnerabilities/sqli/?id=%271+or+1%3D1&Submit=Submit&user_token=0abbd5452e289d4c4e24b7ec2bb3485b HTTP/1.1Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36Host: abc.def.com
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://abc.def.com/vulnerabilities/sqli/
+Accept-Encoding: gzip, deflate
+
+Accept-Language: vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2
+Cookie: PHPSESSID=euffs838jd6gq116c0lued2u3f; security=impossible
+
+
+--77f54e39-F--
+HTTP/1.1 
+Content-Type: text/html
+Content-Length: 570
+Connection: keep-alive
+
+--77f54e39-H--
+Message: Access denied with code 403 (phase 2). Pattern match "(^[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+|[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+$)" at ARGS:id. [file "/usr/local/nginx/conf/base_rules/modsecurity_crs_41_sql_injection_attacks.conf"] [line "64"] [id "981318"] [rev "2"] [msg "SQL Injection Attack: Common Injection Testing Detected"] [data "Matched Data: ' found within ARGS:id: '1 or 1=1"] [severity "CRITICAL"] [ver "OWASP_CRS/2.2.9"] [maturity "9"] [accuracy "8"] [tag "OWASP_CRS/WEB_ATTACK/SQL_INJECTION"] [tag "WASCTC/WASC-19"] [tag "OWASP_TOP_10/A1"] [tag "OWASP_AppSensor/CIE1"] [tag "PCI/6.5.2"]
+Message: Audit log: Failed to lock global mutex: Permission denied
+Action: Intercepted (phase 2)
+Apache-Handler: IIS
+Stopwatch: 1507263614000216 223555 (- - -)
+Stopwatch2: 1507263614000216 223555; combined=1367, p1=54, p2=1272, p3=0, p4=0, p5=41, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for nginx (STABLE)/2.9.0 (http://www.modsecurity.org/).
+Server: ModSecurity Standalone
+Engine-Mode: "ENABLED"
+
+--77f54e39-Z--
+
+
+--77f54e39-A--[06/Oct/2017:11:20:14 +0700] AcAcAcAcA@ycAcAc0NQIKcAc 192.168.1.4 50804 127.0.0.1 80
+GET /vulnerabilities/sqli/?id=%271+or+1%3D1&Submit=Submit&user_token=0abbd5452e289d4c4e24b7ec2bb3485b HTTP/1.1
+Host: abc.def.com
+--77f54e39-B--
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://abc.def.com/vulnerabilities/sqli/
+
+Accept-Language: vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2
+Accept-Encoding: gzip, deflateCookie: PHPSESSID=euffs838jd6gq116c0lued2u3f; security=impossible
+
+--77f54e39-F--
+HTTP/1.1 
+Content-Type: text/html
+Content-Length: 570
+Connection: keep-alive
+
+
+--77f54e39-H--
+Message: Access denied with code 403 (phase 2). Pattern match "(^[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+|[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+$)" at ARGS:id. [file "/usr/local/nginx/conf/base_rules/modsecurity_crs_41_sql_injection_attacks.conf"] [line "64"] [id "981318"] [rev "2"] [msg "SQL Injection Attack: Common Injection Testing Detected"] [data "Matched Data: ' found within ARGS:id: '1 or 1=1"] [severity "CRITICAL"] [ver "OWASP_CRS/2.2.9"] [maturity "9"] [accuracy "8"] [tag "OWASP_CRS/WEB_ATTACK/SQL_INJECTION"] [tag "WASCTC/WASC-19"] [tag "OWASP_TOP_10/A1"] [tag "OWASP_AppSensor/CIE1"] [tag "PCI/6.5.2"]
+Message: Audit log: Failed to lock global mutex: Permission denied
+Action: Intercepted (phase 2)
+Apache-Handler: IIS
+Stopwatch: 1507263614000216 223555 (- - -)
+Stopwatch2: 1507263614000216 223555; combined=1367, p1=54, p2=1272, p3=0, p4=0, p5=41, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for nginx (STABLE)/2.9.0 (http://www.modsecurity.org/).
+
+Engine-Mode: "ENABLED"Server: ModSecurity Standalone
+--77f54e39-Z--
+
+
+
+--77f54e39-A--[06/Oct/2017:11:20:14 +0700] AcAcAcAcA@ycAcAc0NQIKcAc 192.168.1.4 50804 127.0.0.1 80GET /vulnerabilities/sqli/?id=%271+or+1%3D1&Submit=Submit&user_token=0abbd5452e289d4c4e24b7ec2bb3485b HTTP/1.1--77f54e39-B--
+
+
+Host: abc.def.comConnection: keep-alive
+
+
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+
+Accept-Encoding: gzip, deflate
+
+Cookie: PHPSESSID=euffs838jd6gq116c0lued2u3f; security=impossible
+Referer: http://abc.def.com/vulnerabilities/sqli/Accept-Language: vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2
+
+HTTP/1.1 Content-Type: text/html--77f54e39-F--
+Content-Length: 570
+Connection: keep-alive
+
+--77f54e39-H--
+Message: Access denied with code 403 (phase 2). Pattern match "(^[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+|[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+$)" at ARGS:id. [file "/usr/local/nginx/conf/base_rules/modsecurity_crs_41_sql_injection_attacks.conf"] [line "64"] [id "981318"] [rev "2"] [msg "SQL Injection Attack: Common Injection Testing Detected"] [data "Matched Data: ' found within ARGS:id: '1 or 1=1"] [severity "CRITICAL"] [ver "OWASP_CRS/2.2.9"] [maturity "9"] [accuracy "8"] [tag "OWASP_CRS/WEB_ATTACK/SQL_INJECTION"] [tag "WASCTC/WASC-19"] [tag "OWASP_TOP_10/A1"] [tag "OWASP_AppSensor/CIE1"] [tag "PCI/6.5.2"]
+Message: Audit log: Failed to lock global mutex: Permission denied
+Action: Intercepted (phase 2)
+Apache-Handler: IIS
+Stopwatch: 1507263614000216 223555 (- - -)
+Stopwatch2: 1507263614000216 223555; combined=1367, p1=54, p2=1272, p3=0, p4=0, p5=41, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for nginx (STABLE)/2.9.0 (http://www.modsecurity.org/).
+Server: ModSecurity Standalone
+Engine-Mode: "ENABLED"
+
+--77f54e39-Z--
+
+
+
+--77f54e39-A--
+[06/Oct/2017:11:20:14 +0700] AcAcAcAcA@ycAcAc0NQIKcAc 192.168.1.4 50804 127.0.0.1 80
+--77f54e39-B--
+GET /vulnerabilities/sqli/?id=%271+or+1%3D1&Submit=Submit&user_token=0abbd5452e289d4c4e24b7ec2bb3485b HTTP/1.1
+Host: abc.def.com
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://abc.def.com/vulnerabilities/sqli/
+Accept-Encoding: gzip, deflate
+Accept-Language: vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2
+Cookie: PHPSESSID=euffs838jd6gq116c0lued2u3f; security=impossible
+
+--77f54e39-F--
+HTTP/1.1 
+Content-Type: text/html
+Content-Length: 570
+Connection: keep-alive
+
+--77f54e39-H--
+Message: Access denied with code 403 (phase 2). Pattern match "(^[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+|[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+$)" at ARGS:id. [file "/usr/local/nginx/conf/base_rules/modsecurity_crs_41_sql_injection_attacks.conf"] [line "64"] [id "981318"] [rev "2"] [msg "SQL Injection Attack: Common Injection Testing Detected"] [data "Matched Data: ' found within ARGS:id: '1 or 1=1"] [severity "CRITICAL"] [ver "OWASP_CRS/2.2.9"] [maturity "9"] [accuracy "8"] [tag "OWASP_CRS/WEB_ATTACK/SQL_INJECTION"] [tag "WASCTC/WASC-19"] [tag "OWASP_TOP_10/A1"] [tag "OWASP_AppSensor/CIE1"] [tag "PCI/6.5.2"]
+Message: Audit log: Failed to lock global mutex: Permission denied
+Action: Intercepted (phase 2)
+Apache-Handler: IIS
+Stopwatch: 1507263614000216 223555 (- - -)
+Stopwatch2: 1507263614000216 223555; combined=1367, p1=54, p2=1272, p3=0, p4=0, p5=41, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for nginx (STABLE)/2.9.0 (http://www.modsecurity.org/).
+Server: ModSecurity Standalone
+Engine-Mode: "ENABLED"
+
+--77f54e39-Z--
+
+
+--77f54e39-A--[06/Oct/2017:11:20:14 +0700] AcAcAcAcA@ycAcAc0NQIKcAc 192.168.1.4 50804 127.0.0.1 80
+GET /vulnerabilities/sqli/?id=%271+or+1%3D1&Submit=Submit&user_token=0abbd5452e289d4c4e24b7ec2bb3485b HTTP/1.1
+--77f54e39-B--
+Host: abc.def.comConnection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://abc.def.com/vulnerabilities/sqli/
+Accept-Encoding: gzip, deflate
+Accept-Language: vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2
+Cookie: PHPSESSID=euffs838jd6gq116c0lued2u3f; security=impossible
+
+--77f54e39-F--
+HTTP/1.1 
+Content-Type: text/html
+
+Content-Length: 570
+Connection: keep-alive
+
+--77f54e39-H--
+Message: Access denied with code 403 (phase 2). Pattern match "(^[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+|[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+$)" at ARGS:id. [file "/usr/local/nginx/conf/base_rules/modsecurity_crs_41_sql_injection_attacks.conf"] [line "64"] [id "981318"] [rev "2"] [msg "SQL Injection Attack: Common Injection Testing Detected"] [data "Matched Data: ' found within ARGS:id: '1 or 1=1"] [severity "CRITICAL"] [ver "OWASP_CRS/2.2.9"] [maturity "9"] [accuracy "8"] [tag "OWASP_CRS/WEB_ATTACK/SQL_INJECTION"] [tag "WASCTC/WASC-19"] [tag "OWASP_TOP_10/A1"] [tag "OWASP_AppSensor/CIE1"] [tag "PCI/6.5.2"]
+Message: Audit log: Failed to lock global mutex: Permission denied
+Action: Intercepted (phase 2)
+Apache-Handler: IIS
+Stopwatch: 1507263614000216 223555 (- - -)
+Stopwatch2: 1507263614000216 223555; combined=1367, p1=54, p2=1272, p3=0, p4=0, p5=41, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for nginx (STABLE)/2.9.0 (http://www.modsecurity.org/).
+Server: ModSecurity Standalone
+Engine-Mode: "ENABLED"
+
+--77f54e39-Z--
+
+
+
+--77f54e39-A--[06/Oct/2017:11:20:14 +0700] AcAcAcAcA@ycAcAc0NQIKcAc 192.168.1.4 50804 127.0.0.1 80--77f54e39-B--GET /vulnerabilities/sqli/?id=%271+or+1%3D1&Submit=Submit&user_token=0abbd5452e289d4c4e24b7ec2bb3485b HTTP/1.1
+Host: abc.def.com
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://abc.def.com/vulnerabilities/sqli/
+Accept-Encoding: gzip, deflate
+Accept-Language: vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2
+
+
+
+Cookie: PHPSESSID=euffs838jd6gq116c0lued2u3f; security=impossible
+HTTP/1.1 
+Content-Type: text/html
+Content-Length: 570
+Connection: keep-alive
+
+--77f54e39-F----77f54e39-H--
+
+Message: Access denied with code 403 (phase 2). Pattern match "(^[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+|[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+$)" at ARGS:id. [file "/usr/local/nginx/conf/base_rules/modsecurity_crs_41_sql_injection_attacks.conf"] [line "64"] [id "981318"] [rev "2"] [msg "SQL Injection Attack: Common Injection Testing Detected"] [data "Matched Data: ' found within ARGS:id: '1 or 1=1"] [severity "CRITICAL"] [ver "OWASP_CRS/2.2.9"] [maturity "9"] [accuracy "8"] [tag "OWASP_CRS/WEB_ATTACK/SQL_INJECTION"] [tag "WASCTC/WASC-19"] [tag "OWASP_TOP_10/A1"] [tag "OWASP_AppSensor/CIE1"] [tag "PCI/6.5.2"]
+Message: Audit log: Failed to lock global mutex: Permission denied
+Action: Intercepted (phase 2)
+Apache-Handler: IIS
+Stopwatch: 1507263614000216 223555 (- - -)
+Stopwatch2: 1507263614000216 223555; combined=1367, p1=54, p2=1272, p3=0, p4=0, p5=41, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for nginx (STABLE)/2.9.0 (http://www.modsecurity.org/).
+Server: ModSecurity Standalone
+Engine-Mode: "ENABLED"
+
+--77f54e39-Z--
+
+
+
+--77f54e39-A--
+[06/Oct/2017:11:20:14 +0700] AcAcAcAcA@ycAcAc0NQIKcAc 192.168.1.4 50804 127.0.0.1 80
+GET /vulnerabilities/sqli/?id=%271+or+1%3D1&Submit=Submit&user_token=0abbd5452e289d4c4e24b7ec2bb3485b HTTP/1.1
+Host: abc.def.com
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://abc.def.com/vulnerabilities/sqli/
+Accept-Encoding: gzip, deflate
+Accept-Language: vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2
+Cookie: PHPSESSID=euffs838jd6gq116c0lued2u3f; security=impossible
+
+--77f54e39-F--
+HTTP/1.1 
+Content-Type: text/html
+Content-Length: 570
+Connection: keep-alive
+
+--77f54e39-H--
+Message: Access denied with code 403 (phase 2). Pattern match "(^[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+|[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+$)" at ARGS:id. [file "/usr/local/nginx/conf/base_rules/modsecurity_crs_41_sql_injection_attacks.conf"] [line "64"] [id "981318"] [rev "2"] [msg "SQL Injection Attack: Common Injection Testing Detected"] [data "Matched Data: ' found within ARGS:id: '1 or 1=1"] [severity "CRITICAL"] [ver "OWASP_CRS/2.2.9"] [maturity "9"] [accuracy "8"] [tag "OWASP_CRS/WEB_ATTACK/SQL_INJECTION"] [tag "WASCTC/WASC-19"] [tag "OWASP_TOP_10/A1"] [tag "OWASP_AppSensor/CIE1"] [tag "PCI/6.5.2"]
+Message: Audit log: Failed to lock global mutex: Permission denied
+Action: Intercepted (phase 2)
+Apache-Handler: IIS
+Stopwatch: 1507263614000216 223555 (- - -)
+Stopwatch2: 1507263614000216 223555; combined=1367, p1=54, p2=1272, p3=0, p4=0, p5=41, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for nginx (STABLE)/2.9.0 (http://www.modsecurity.org/).
+Server: ModSecurity Standalone
+Engine-Mode: "ENABLED"
+
+--77f54e39-Z--
+
+
+--77f54e39-B--
+--77f54e39-A--
+[06/Oct/2017:11:20:14 +0700] AcAcAcAcA@ycAcAc0NQIKcAc 192.168.1.4 50804 127.0.0.1 80
+--77f54e39-B--
+GET /vulnerabilities/sqli/?id=%271+or+1%3D1&Submit=Submit&user_token=0abbd5452e289d4c4e24b7ec2bb3485b HTTP/1.1
+Host: abc.def.com
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+
+Referer: http://abc.def.com/vulnerabilities/sqli/
+Accept-Encoding: gzip, deflate
+Accept-Language: vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2Cookie: PHPSESSID=euffs838jd6gq116c0lued2u3f; security=impossible--77f54e39-F--
+HTTP/1.1 
+Content-Type: text/html
+
+
+
+Content-Length: 570
+Connection: keep-alive
+
+--77f54e39-H--
+Message: Access denied with code 403 (phase 2). Pattern match "(^[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+|[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+$)" at ARGS:id. [file "/usr/local/nginx/conf/base_rules/modsecurity_crs_41_sql_injection_attacks.conf"] [line "64"] [id "981318"] [rev "2"] [msg "SQL Injection Attack: Common Injection Testing Detected"] [data "Matched Data: ' found within ARGS:id: '1 or 1=1"] [severity "CRITICAL"] [ver "OWASP_CRS/2.2.9"] [maturity "9"] [accuracy "8"] [tag "OWASP_CRS/WEB_ATTACK/SQL_INJECTION"] [tag "WASCTC/WASC-19"] [tag "OWASP_TOP_10/A1"] [tag "OWASP_AppSensor/CIE1"] [tag "PCI/6.5.2"]Message: Audit log: Failed to lock global mutex: Permission denied
+
+Action: Intercepted (phase 2)Apache-Handler: IIS
+Stopwatch: 1507263614000216 223555 (- - -)
+Stopwatch2: 1507263614000216 223555; combined=1367, p1=54, p2=1272, p3=0, p4=0, p5=41, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for nginx (STABLE)/2.9.0 (http://www.modsecurity.org/).
+Server: ModSecurity Standalone
+Engine-Mode: "ENABLED"
+
+--77f54e39-Z--
+
+
+
+--77f54e39-A--[06/Oct/2017:11:20:14 +0700] AcAcAcAcA@ycAcAc0NQIKcAc 192.168.1.4 50804 127.0.0.1 80
+GET /vulnerabilities/sqli/?id=%271+or+1%3D1&Submit=Submit&user_token=0abbd5452e289d4c4e24b7ec2bb3485b HTTP/1.1
+
+Host: abc.def.com
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+--77f54e39-B--User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://abc.def.com/vulnerabilities/sqli/
+Accept-Encoding: gzip, deflate
+Accept-Language: vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2
+Cookie: PHPSESSID=euffs838jd6gq116c0lued2u3f; security=impossible
+
+--77f54e39-F--
+HTTP/1.1 
+Content-Type: text/html
+Content-Length: 570
+Connection: keep-alive
+
+--77f54e39-H--
+Message: Access denied with code 403 (phase 2). Pattern match "(^[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+|[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98;]+$)" at ARGS:id. [file "/usr/local/nginx/conf/base_rules/modsecurity_crs_41_sql_injection_attacks.conf"] [line "64"] [id "981318"] [rev "2"] [msg "SQL Injection Attack: Common Injection Testing Detected"] [data "Matched Data: ' found within ARGS:id: '1 or 1=1"] [severity "CRITICAL"] [ver "OWASP_CRS/2.2.9"] [maturity "9"] [accuracy "8"] [tag "OWASP_CRS/WEB_ATTACK/SQL_INJECTION"] [tag "WASCTC/WASC-19"] [tag "OWASP_TOP_10/A1"] [tag "OWASP_AppSensor/CIE1"] [tag "PCI/6.5.2"]
+Message: Audit log: Failed to lock global mutex: Permission denied
+Action: Intercepted (phase 2)
+Apache-Handler: IIS
+Stopwatch: 1507263614000216 223555 (- - -)Stopwatch2: 1507263614000216 223555; combined=1367, p1=54, p2=1272, p3=0, p4=0, p5=41, sr=0, sw=0, l=0, gc=0
+
+Producer: ModSecurity for nginx (STABLE)/2.9.0 (http://www.modsecurity.org/).
+Server: ModSecurity Standalone
+Engine-Mode: "ENABLED"
+
+--77f54e39-Z--
+
